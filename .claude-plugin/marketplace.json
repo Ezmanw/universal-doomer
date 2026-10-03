@@ -1,0 +1,11 @@
+{
+  "name": "universal-doomer",
+  "owner": { "name": "Ezmanw" },
+  "plugins": [
+    {
+      "name": "universal-doomer",
+      "source": "./",
+      "description": "Port the full Doom game into any game engine, with the engine drawing everything natively."
+    }
+  ]
+}

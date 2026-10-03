@@ -1,0 +1,8 @@
+{
+  "name": "universal-doomer",
+  "description": "Port the full Doom game into any game engine, with the engine drawing everything natively.",
+  "version": "0.1.0",
+  "author": { "name": "Ezmanw" },
+  "repository": "https://github.com/Ezmanw/universal-doomer",
+  "license": "GPL-2.0"
+}

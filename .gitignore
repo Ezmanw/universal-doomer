@@ -1,0 +1,6 @@
+build/
+out/
+wads/
+upstream-doomgeneric/
+.default.cfg
+.savegame/
