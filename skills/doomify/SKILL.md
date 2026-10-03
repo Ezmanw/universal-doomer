@@ -14,8 +14,15 @@ weapons and HUD with its own renderer.
 The engine is the repository this skill came from:
 <https://github.com/Ezmanw/universal-doomer>
 
-- If `~/.local/share/universal-doomer` exists (created by `install.sh`), use it.
-- Otherwise clone it: `git clone https://github.com/Ezmanw/universal-doomer`
+Use the first of these that has an `include/portadoom.h`:
+
+1. Two folders up from this skill's own folder (resolve symlinks first:
+   `realpath <skill dir>/../..`). Plugin installs and `install.sh` both put
+   the whole engine there.
+2. `~/.local/share/universal-doomer`
+3. Neither: clone it with `git clone https://github.com/Ezmanw/universal-doomer`
+
+Then:
 - Build: `make` (gives `build/native/libportadoom.a`). It needs only a C compiler.
 - The whole API is in `include/portadoom.h`. Read it before writing any code.
 - `hosts/headless/main.c` is a complete, small example host.
